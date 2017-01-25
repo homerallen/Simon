@@ -1,0 +1,275 @@
+body {
+  background-image: url("http://www.homerallen.com/images/wood_texture.jpg");
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+}
+
+#simon {
+  width: 450px;
+  height: 450px;
+  margin: 100px auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#center {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  border: 7.5px solid black;
+  background-color: #222222;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+#name {
+  height: 25%;
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 15px auto 0px auto;
+}
+
+#registered {
+  font-size: 15px;
+}
+
+#controls {
+  height: 34.5%;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+}
+
+#controls>div {
+  display: inline-block;
+  height: 100%;
+  width: 30.5%;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+}
+
+#countDisplay {
+  background-color: #4F5440;
+  height: 45.5%;
+  width: 55%;
+  line-height: 200%;
+  font-size: 18px;
+  border: 2px solid #777777;
+  border-radius: 10%;
+  margin: auto;
+  position: absolute;
+  left: 20%;
+  bottom: 24px;
+}
+
+.controlButton {
+  width: 100%;
+  position: absolute;
+  bottom: 24px;
+  margin: auto;
+  left: 28%;
+}
+
+.controlButton:active {
+  bottom: 21px;
+}
+
+.controlLabel {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+}
+
+#startButton {
+  background-color: #BD0018;
+  border-radius: 100%;
+  border: 3px solid black;
+  height: 27%;
+  width: 30.8%;
+  margin: auto;
+}
+
+#strictLight {
+  position: absolute;
+  border-radius: 100%;
+  height: 9%;
+  width: 10.6%;
+  border: 2px solid black;
+  left: 41%;
+  bottom: 75%;
+}
+
+.strictLightOff {
+  background-color: #32050C;
+}
+
+.strictLightOn {
+  background-color: #BD0018;
+}
+
+#strictButton {
+  background-color: #FFEF00;
+  border-radius: 100%;
+  border: 3px solid black;
+  height: 27%;
+  width: 30.8%;
+  border-radius: 100%;
+  margin: auto;
+}
+
+#switch {
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 14px;
+  margin: 6% 0px 0px 0px;
+}
+
+#switch>div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#switchCasing {
+  height: 25px;
+  width: 50px;
+  background-color: #777777;
+}
+
+#toggle {
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+  border: 2px solid black;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.toggleOn {
+  margin-left: 45%;
+}
+
+ul {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  font-size: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  vertical-align: top;
+  height: 45%;
+  width: 45%;
+}
+
+#simonGreen {
+  border: 7.5px solid black;
+  -moz-border-radius: 100% 0 0 0;
+  border-radius: 100% 0 0 0;
+}
+
+.simonGreenOff {
+  background-color: #008439;
+}
+
+.simonGreenOn {
+  background-color: #7AF492;
+}
+
+#simonRed {
+  border: 7.5px solid black;
+  -moz-border-radius: 0 100% 0 0;
+  border-radius: 0 100% 0 0;
+}
+
+.simonRedOff {
+  background-color: #BD0018;
+}
+
+.simonRedOn {
+  background-color: #FF9B9B;
+}
+
+#simonYellow {
+  border: 7.5px solid black;
+  -moz-border-radius: 0 0 0 100%;
+  border-radius: 0 0 0 100%;
+}
+
+.simonYellowOff {
+  background-color: #FFEF00;
+}
+
+.simonYellowOn {
+  background-color: #FFF78E;
+}
+
+#simonBlue {
+  border: 7.5px solid black;
+  -moz-border-radius: 0 0 100% 0;
+  border-radius: 0 0 100% 0;
+}
+
+.simonBlueOff {
+  background-color: #0073AD;
+}
+
+.simonBlueOn {
+  background-color: #61A4FF;
+}
+
+@media only screen and (max-device-width: 736px) and (orientation: portrait) {
+  #simon {
+    width: 318.75px;
+    height: 318.75px;
+  }
+  #center {
+    background-color: #333333
+  }
+  #name {
+    font-size: 35px;
+  }
+  #registered {
+    font-size: 10px;
+  }
+  #controls {
+    font-size: 13px;
+  }
+  #countDisplay {
+    font-size: 14px;
+  }
+  #switch {
+    font-size: 13px;
+  }
+  #switchCasing {
+    height: 20px;
+    width: 40px;
+  }
+  #strictLight {
+    bottom: 90%;
+  }
+}
